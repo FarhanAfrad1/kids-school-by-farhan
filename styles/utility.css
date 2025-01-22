@@ -1,0 +1,40 @@
+nav{
+    max-width: 1160px;
+}
+.flex{
+    display: flex;
+}
+.margin-auto{
+    margin: 0 auto;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.text-bold{
+    font-weight: 700;
+}
+.text-orange{
+    color: rgb(254,163,1);
+}
+.text-sky-blue{
+    color: rgb(1, 172, 253);
+}
+.text-dark-turquoise{
+    color: rgb(5, 212, 223);
+}
+.text-majorelle-blue{
+    color: rgb(93, 88, 239);
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+}
+.hide{
+    display: none;
+}
