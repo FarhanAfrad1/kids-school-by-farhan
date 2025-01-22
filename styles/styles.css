@@ -36,22 +36,35 @@ ul.flex{
 }
 .nav-button{
     background: rgb(254,163,1);
-    width: 197px;
-    text-align: center;
-    color: white;
+}
+/* banner */
+.banner-container{
+    gap: 3rem;
+}
+
+.banner-description h2{
+    font-size: 3.5rem;
+    margin: 0;
+}
+.banner-description{
+    font-size: 1.25rem;
+}
+.banner-description button{
+    background: black;
 }
 
 
 
 @media screen and (max-width:576px){
     header{
-        max-width: 100vw;
         border: 0.5px solid rgb(254,163,1);
         margin: 0;
     }
-    nav{
+    nav,.banner-container{
         width: 357px;
         margin: 0 auto;
+    }
+    nav{
         padding: 12px 0;    
     }
     .nav-links,.nav-button,nav span{
@@ -67,20 +80,26 @@ ul.flex{
     .ham-icon a{
         text-decoration: none;
     }
-    .ham-icon ul{
-        display: none;
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 1.25rem;
     }
-    .ham-icon:hover ul{
-        display: block;
-        flex-direction: column;
-        width: 100px;
-        background-color:bisque;
-        padding: 10px;
-        position: absolute;
-        top: 45px;
-        right: 132px;
+    .banner-container img{
+        width: 100%;
     }
-    
+    .banner-description{
+        text-align: center;
+    }
+    .banner-description h2{
+        font-size: 2rem;
+    }
+    .banner-description p{
+        font-size: 1.10rem;
+    }
+    .banner-description button{
+        font-size: 16px;
+        width: 130px;
+    }
 }
 @media screen and (min-width:576px){
     .ham-icon{

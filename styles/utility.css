@@ -1,8 +1,12 @@
-nav{
+.container{
     max-width: 1160px;
+    margin: 0 auto;
 }
 .flex{
     display: flex;
+}
+.flex-column{
+    flex-direction: column;
 }
 .margin-auto{
     margin: 0 auto;
@@ -34,6 +38,9 @@ nav{
     padding: 10px;
     border: none;
     border-radius: 12px;
+    width: 197px;
+    text-align: center;
+    color: white;
 }
 .hide{
     display: none;
