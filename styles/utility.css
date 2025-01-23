@@ -48,6 +48,12 @@
   width: 197px;
   text-align: center;
   color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover{
+  opacity: 0.8;
+  transform: scale(96%);
 }
 .hide {
   display: none;
