@@ -82,6 +82,10 @@ ul.flex {
   font-weight: 700;
   background: white;
   border: none;
+  cursor: pointer;
+}
+.curriculum-button:hover{
+  text-decoration: underline;
 }
 #curriculum-card-1 {
   background: linear-gradient(
@@ -241,7 +245,6 @@ footer li{
 /* responsive */
 @media screen and (max-width: 576px) {
   header {
-    
     border: 0.5px solid rgb(254, 163, 1);
     margin: 0;
   }
